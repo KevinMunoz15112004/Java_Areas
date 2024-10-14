@@ -19,7 +19,12 @@ public class Main {
                     //calcular área del triángulo
                     break;
                 case 2:
-                    //Calcular área del cuadrado
+                    int lado;
+                    System.out.println("Ingrese el lado del cuadrado: ")
+                    lado=sc.nextInt();
+                    double area_cuadrado = lado*lado;
+                    System.out.println("El area del cuadrado de lado "+lado+" es: "+area_cuadrado);
+                    //comentario xd
                     break;
                 case 3:
                     //calcular área del circulo

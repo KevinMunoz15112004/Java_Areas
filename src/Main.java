@@ -24,7 +24,6 @@ public class Main {
                     lado=sc.nextInt();
                     double area_cuadrado = lado*lado;
                     System.out.println("El area del cuadrado de lado "+lado+" es: "+area_cuadrado);
-                    //comentario xd
                     break;
                 case 3:
                     //calcular área del circulo
